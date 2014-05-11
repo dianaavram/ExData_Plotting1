@@ -22,7 +22,8 @@ dat <- dat[, -2]
 
 # Preparing the data for plotting, by creating a new data.frame
 electric <- data.frame(date = dat$Date, gap = dat$Global_active_power)
-
+#figure out the lowest and highest dates
+daterange <- c(as.POSIXlt(min(electric$date)),as.POSIXlt(max(electric$date)))
 
 # Plot 2 -  plotting "Global Active Power" by day 
 #           and saving in .png format
