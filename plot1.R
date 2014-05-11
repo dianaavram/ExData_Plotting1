@@ -1,3 +1,7 @@
+# Course Project 1 
+# PLOT 1
+# -----------------------
+
 # Read data from file .txt
 # -------------------------
 # Read only the lines from 66638 to 69517, which correspond to 01-02 February 2007

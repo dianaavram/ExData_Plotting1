@@ -1,3 +1,7 @@
+# Course Project 1 
+# PLOT 4
+# -----------------------
+
 # Read data from file .txt
 # -------------------------
 # Read only the lines from 66638 to 69517, which correspond to 01-02 February 2007
@@ -26,6 +30,7 @@ dat <- dat[, -2]
 # ---------------------------------------------------------
 png("plot4.png", width = 480, height = 480)
 
+# creates the "matrix" for the four plots
 par(mfcol = c(2,2))
 
 # plot top-left
