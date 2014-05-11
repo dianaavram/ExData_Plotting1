@@ -2,8 +2,9 @@
 # PLOT 1
 # -----------------------
 
-# Read data from file .txt
-# -------------------------
+
+# Read data from file .txt (in the same dir as the .R file)
+# ---------------------------------------------------------
 # Read only the lines from 66638 to 69517, which correspond to 01-02 February 2007
 dat <- read.table("household_power_consumption.txt", header = TRUE, sep = ";", 
             col.names = c("Date", "Time", "Global_active_power", 
